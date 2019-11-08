@@ -3,8 +3,8 @@ def base_hash
   # the last expression in a method's implementation is the return value of the method itself.
   #We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
- hero: {}
-bash_hash
+ bash_hash = {base: {}}
+bash_hash 
 end
 
 

@@ -3,10 +3,9 @@ def base_hash
   # the last expression in a method's implementation is the return value of the method itself.
   #We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
-  :name => "Dwayne The Rock Johnson"
+ hero: {}
 bash_hash
 end
-#end
 
 
 #def monopoly_with_second_tier
@@ -30,10 +29,6 @@ end
   # complexity.
 #end
 
-def actor
-  # actor = {:name => "Dwayne The Rock Johnson"}
- 
-end
 
 def monopoly
   monopoly = {
